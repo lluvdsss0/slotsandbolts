@@ -79,13 +79,13 @@ closeBtn.addEventListener("click", () => {
   }, 2000);
 });
 
-window.addEventListener(
-  "click",
-  () => {
-    const music = document.getElementById("backgroundMusic");
-    music.play().catch((err) => {
-      console.log("Ошибка воспроизведения:", err);
-    });
-  },
-  { once: true }
-); // срабатывает только один раз
+// window.addEventListener(
+//   "click",
+//   () => {
+//     const music = document.getElementById("backgroundMusic");
+//     music.play().catch((err) => {
+//       console.log("Ошибка воспроизведения:", err);
+//     });
+//   },
+//   { once: true }
+// ); // срабатывает только один раз
